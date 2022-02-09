@@ -34,6 +34,7 @@ function App() {
       </div>
       <br />
       <DynamicClock dynamicClock={dynamicClock}/>
+      <a href="https://github.com/main0Server/counter-dynamic-clock" rel="noreferrer" target="_blank" >GitHub Repository</a>
     </div>
   );
 }
