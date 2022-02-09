@@ -2,6 +2,9 @@ import React, {useState} from "react";
 import DynamicClock from "./DynamicClock";
 
 function App() {
+
+  const githubRepo = "https://github.com/main0Server/counter-dynamic-clock";
+
   // HOOKS. starting state!
   const [count, setCount] = useState(0);
 
@@ -34,7 +37,7 @@ function App() {
       </div>
       <br />
       <DynamicClock dynamicClock={dynamicClock}/>
-      <a href="https://github.com/main0Server/counter-dynamic-clock" rel="noreferrer" target="_blank" >GitHub Repository</a>
+      <a href={githubRepo} rel="noreferrer" target="_blank" >GitHub Repository</a>
     </div>
   );
 }

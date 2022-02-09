@@ -7,6 +7,17 @@ body {
   font-size: 24px;
 }
 
+button {
+  display: inline-block;
+  background-color: #6bbe92;
+  color: #fff;
+  border: 0;
+  margin: 0 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
 a {
   color: lightblue;
 }
@@ -18,17 +29,6 @@ a {
 .counter button {
   padding: 0;
   width: 100px;
-}
-
-button {
-  display: inline-block;
-  background-color: #6bbe92;
-  color: #fff;
-  border: 0;
-  margin: 0 20px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 40px;
 }
 
 .time {
