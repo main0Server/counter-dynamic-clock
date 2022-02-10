@@ -7,8 +7,10 @@ function App() {
 
   // HOOKS. starting state!
   const [count, setCount] = useState(0);
+  
+  const now = new Date().toLocaleTimeString();
 
-  const [dynamicClock, setDynamicClock] = useState(new Date().toLocaleTimeString());
+  const [dynamicClock, setDynamicClock] = useState(now);
 
   const [staticClock, setTime] = useState(setDynamicClock);
 
@@ -30,7 +32,7 @@ function App() {
         <button
           className="getTime"
           onClick={() => {
-            setTime(new Date().toLocaleTimeString())
+            setTime(now)
           }}>
           Get Time
         </button>
